@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a La Librería | Tienda Online</title>
-    <link id="estilo" rel="stylesheet" href="css/flex_2.css">
+    <title>Esfera | La Librería - Tienda Online</title>
+    <link rel="stylesheet" href="css/flex_2.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-207522128-2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-207522128-2');
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-807JPX06G5"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-807JPX06G5');
-    </script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-207522128-2"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'UA-207522128-2');
+     </script>
+ 
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-807JPX06G5"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-807JPX06G5');
+     </script>
 
 </head>
 <body>
-
     <!-- Encabezado y Navegación -->
     <header id="header">
         <nav>
@@ -48,16 +47,20 @@
             </form>
         </nav>
     </header>
-    <main role="main">
-        <!-- Presentación -->
-        <section id="presentacion">
-            <img src="img/logo.svg" alt="Bienvenidos a la Librería, Tienda Online">
-        </section>
-        <!-- Bienvenida -->
-        <section id="bienvenida">
-            <h1>Bienvenidos a La Librería</h1>
-            <img src="img/bienvenida.jpg" alt="Bienvenidos a la Librería, Tienda Online">
-        </section>
+
+    <section id="libro">
+        <div class="izquierda">
+            <img src="img/06.jpg" alt="Esfera - Michael Crichton">
+        </div>
+        <div class="derecha">
+            <h1>Esfera</h1>
+            <h2>Michael Crichton</h2>
+            <a href="#">Añadir al carrito</a>
+            <a href="#">Añadir a mi lista de favoritos</a>
+            <p>En medio del Pacífico Sur, a mil pies por debajo de la superficie del agua, se descubre una enorme embarcación descansando en el fondo del océano.</p>
+        </div>
+    </section>
+
         <!-- Novedades -->
         <section id="novedades">
             <h1>Novedades</h1>
@@ -117,7 +120,6 @@
                 <li><input id="siguiente" type="submit" value="Siguiente"></li>
             </ul>
         </section>
-    </main>
     <!-- Footer -->
     <footer>
         <h1>Ubicación</h1>
@@ -131,6 +133,7 @@
             <li><input type="submit" onclick="cambiar('css/flex_2.css')" value="Estilo 2"></li>
         </ul>
     </footer>
+
 
 
 
